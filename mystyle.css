@@ -1,0 +1,7 @@
+.dayo  ul li{
+    display:  inline-block;
+    text-decoration:none;
+    list-style-type: none;
+    margin-left: 200px;
+    margin-top: -60px;
+}
