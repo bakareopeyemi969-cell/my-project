@@ -8,135 +8,381 @@
     <title>HTML PRATICE</title>
     <link rel="stylesheet" type="text/css" href="mystyle.css">
     <style>
-       
-        /* a {
+        .focus-section {
+            background-image: url(bg.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .what {
+            color: #ffc107;
+            font-weight: bold;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+        }
+
+        .overlay {
+            background: rgba(50, 0, 90, 0, 75);
+            padding: 80px;
+            text-align: center;
+            color: white;
+        }
+
+        .focus {
+            font-size: 55px;
+            font-weight: bolder;
+            margin: 10px 0;
+            margin-bottom: 20px;
+
+        }
+
+        .focus-text {
+            max-width: 650px;
+            margin: auto;
+            margin-top: 20px;
+            line-height: 1.4;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            max-width: 1100px;
+            margin: auto;
+            margin-top: 60px;
+
+        }
+
+        .card-pup {
+            padding: 35px;
+            border-radius: 12px;
+            text-align: left;
+            color: white;
+            background: linear-gradient(135deg, #8e2de2, #4a00e0);
+
+
+        }
+
+        .card-pup p {
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .card-pup:hover {
+            transform: scale(1.07);
+        }
+
+        .card-pup i {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .card-pup h3 {
+            margin-bottom: 10px;
+
+        }
+
+        .card-pup a {
+            color: white;
             text-decoration: none;
-            text-shadow: -5px -2px 2px rgba(16, 64, 238, 0.482);
         }
 
-        h1 {
-            color: rgb(9, 90, 196);
+        .card-blue {
+            padding: 35px;
+            border-radius: 12px;
+            text-align: left;
+            color: white;
+            background: linear-gradient(135deg, #2193b0, #6dd5ed);
+
+
         }
 
-        a:hover {
-            color: rgb(155, 162, 199);
+        .card-blue p {
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            color: white;
+
         }
 
-        ul {
-            list-style-type: none;
+        .card-blue:hover {
+            transform: scale(1.07);
+        }
+
+        .card-blue i {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .card-blue h3 {
+            margin-bottom: 10px;
+
+        }
+
+        .card-blue a {
+            color: white;
             text-decoration: none;
-        } */
-
-
-        h3 {
-            direction: ltr;
-            letter-spacing: 5px;
-            word-spacing: px;
-            text-indent: 20px;
-            text-align: 0px;
-            text-shadow: 5px 3px 5px rgba(196, 221, 10, 0.847);
-            margin-left: 50px;
         }
 
-        h2 {
-            text-shadow: 5px 6px 3px rgb(196, 212, 14, 0.966);
+        .card-red {
+            padding: 35px;
+            border-radius: 12px;
+            text-align: left;
+            color: white;
+            background: linear-gradient(135deg, #ff416c, #ff4b2b);
+
+
+        }
+
+        .card-red p {
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            color: white;
+
+        }
+
+        .card-red:hover {
+            transform: scale(1.07);
+        }
+
+        .card-red i {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .card-red h3 {
+            margin-bottom: 10px;
+
+        }
+
+        .card-red a {
+            color: white;
             text-decoration: none;
-            text-transform: capitalize;
-            text-indent: 20px;
-            letter-spacing: 7px;
         }
 
-        /* body {
-            background-color: black;
+        .card-green {
+            padding: 35px;
+            border-radius: 12px;
+            text-align: left;
+            color: white;
+            background: linear-gradient(135deg, #11998e, #38ef7d);
+
+
         }
-        ol{
-            background-color: rgb(114, 28, 200);
+
+        .card-green p {
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            color: white;
+
         }
-        dl{
-            background-color: rgb(102, 50, 185);
+
+        .card-green:hover {
+            transform: scale(1.07);
         }
-        li{
-            background-color: blueviolet;
-        } */
-         /* ul li {
-            list-style-type: none;
-            margin-left:370PX ;
-            margin-top: -40px;
+
+        .card-green i {
+            font-size: 28px;
+            margin-bottom: 15px;
         }
-         */
+
+        .card-green h3 {
+            margin-bottom: 10px;
+
+        }
+
+        .card-green a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .card-teal {
+            padding: 35px;
+            border-radius: 12px;
+            text-align: left;
+            color: white;
+            background: linear-gradient(135deg, #55e4a1,  #1c664a);
+
+
+        }
+
+        .card-teal p {
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            color: white;
+
+        }
+
+        .card-teal:hover {
+            transform: scale(1.07);
+        }
+
+        .card-teal i {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .card-teal h3 {
+            margin-bottom: 10px;
+
+        }
+
+        .card-teal a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .card-orange {
+            padding: 35px;
+            border-radius: 12px;
+            text-align: left;
+            color: white;
+            background: linear-gradient(135deg, #f7971e, #ffd200);
+
+
+        }
+
+        .card-orange p {
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            color: white;
+
+        }
+
+        .card-orange:hover {
+            transform: scale(1.07);
+        }
+
+        .card-orange i {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .card-orange h3 {
+            margin-bottom: 10px;
+
+        }
+
+        .card-orange a {
+            color: white;
+            text-decoration: none;
+        }
+        .explore{
+            margin-top: 60px;
+            padding: 15px 35px;
+            background: #ffc107;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+        .explore:hover .arrow{
+            transform: translateX(10px);
+        }
+        .arrow{
+            display: inline-block;
+            transition: 0.35;
+        }
     </style>
 </head>
 
 <body>
+    <img src="jjjjjjjj.png" width="50px" height="50px">
 
-    <a href="index.html">
-        <img src="images.png" width="50px" height="50px" >
-    </a>
     <div class="dayo">
-    <ul>
-        <li>
-             <a href="index.html">Introduction</a>
-        <li>
-            <a href="ass page 2.html">About us </a>
-        </li>
-        <li>
-            <a href="ass page 3.html">services</a>
-        </li>
-        <li>
-            <a href="ass page 4.html"> products </a>
-        </li>
-        <li>
-             <a href="ass page 5.html">contact us</a>
-        </li>
-    </ul></div>
-
-
-    <img src="pic.png" style="width:100%;" height="500px"><br><br>
-
-    <h2 style="color: rgb(125, 149, 20);">TYPE OF LIST IN HTML</h2>
-    <h3 style="color: rgb(165, 197, 35);">order list</h3>
-
-    <ol>
-        <li>iphone</li>
-        <li>tecno</li>
-        <li>itel</li>
-        <li>samsung</li>
-    </ol><br>
-    <h3 style="color: rgb(186, 220, 14);">unorder list</h3>
-    <ul>
-        <ol>
-            <li>iphone</li>
-            <li>tecno</li>
-            <li>itel</li>
-            <li>samsung</li>
-        </ol><br>
-        <h3 style="color: rgb(166, 194, 9);">nexted list</h3>
         <ul>
-            <li style="text-decoration: underline;">Type of phone</li>
-            <ul>
-                <li>iphone</li>
-                <ol>
-                    <li>ip 11</li>
-                    <li>ip 12</li>
-                </ol>
-                <li>Infinix</li>
-                <ol style="direction: rtl;">
-                    <li>smart 5</li>
-                    <li>spark 7 hd</li>
-                    <li>spark 9</li>
-                </ol>
-            </ul>
+            <li>
+                <a href="index.html">Introduction</a></h4>
+            <li>
+                <a href="ass page 2.html"> About us</a></h4>
+            </li>
+            <li>
+                <a href="ass page 3.html">service</a></h4>
+            </li>
+            <li>
+                <a href="ass page 4.html"> products </a></h4>
+            </li>
+            <li>
+                <a href="ass page 5.html">contact us</a></h4>
+            </li>
         </ul><br>
-        <h3 style="color: rgb(172, 174, 16);">descriptive list</h3>
-        <dl>
-            <dt style="text-decoration: line-through;">Type of phone</dt>
-            <dd>samsung</dd>
-            <dd> iPhone</dd>
-            <dd>samsung</dd>
-            <dd>itel &nbsp;</dd>
-        </dl>
-        <P style="margin-left: 300px;">&copf; Opeyemi HTML pratice.All right reserved </P>
-        <p style="margin-left:300px ;"></p>
+    </div>
+    <section class="focus-section">
+        <div class="overlay">
+
+            <p class="what"> WHAT WE DO</p>
+            <h1 class="focus">Our Focus Area</h1>
+            <p class="focus-text">six integrated focus area guide our work in youth-led peacebuilding, conflict<br>
+                prevention,and sustainable development
+
+            </p>
+
+            <div class="cards">
+                <div class="card-pup">
+                    <i class="fa-solid fa-user"></i>
+                    <h3>Youth and woman peace and security</h3>
+                    <p>Empowering young people and women as active agents of peace through capacity building and
+                        advocacy</p>
+                    <a href="#">Learn more </a>
+                </div>
+
+                <div class="card-blue">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Conflict Management $ Peacebuilding</h3>
+                    <p>Building skills to identify and handle conflicts sensibly,fairly and efficiently</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="card-red">
+                    <i class="fa-solid fa-traingle-exclamation"></i>
+                    <h3>Prevention of violent Extemism</h3>
+                    <p> proactive measures to combat extremism through education and community engagement</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div class="card-green">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <h3>Governance $ Accountability</h3>
+                    <p>promote inclusive, transparent and accountable governance through civic awareness.</p>
+                    <a href="#">Learn more</a>
+
+
+
+                </div>
+                <div class="card-teal">
+                    <i class="fa-solid fa-leaf"></i>
+                    <h3>Climate $ Environment security</h3>
+                    <p>Integrating Climate action with peacebuildingto address resource conflicts.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div class="card-orange">
+                    <i class="fa-solid fa-book"></i>
+                    <h3>Peace Education </h3>
+                    <p>Equipping communities with knowledge and skills for peaceful conflict resolution.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+
+            </div>
+            <button class="explore"> Explore All Program<span class="arrow"></span>&rarr;</span></button>
+
+        </div>
+    </section>
 </body>
 
 </html>

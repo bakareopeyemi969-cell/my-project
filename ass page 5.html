@@ -44,7 +44,7 @@
         form {
             background-color: rgb(255, 254, 253);
             border-radius: 20px;
-            border-style:doted;
+            border-style: doted;
             border-color: rgb(55, 8, 157);
             border-width: 20px;
             padding: 20px;
@@ -53,9 +53,28 @@
             color: rgb(2, 4, 0);
             a;
         }
-        .ttt legend label input button{
+
+        .ttt legend label input button {
             align-items: center;
-           
+
+        }
+
+        .drop {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-con {
+            position: absolute;
+            display: none;
+        }
+
+        .dropdown-con:hover {
+            display: none;
+
+        }
+        .drop:hover .dropdown-con{
+            display: block;
         }
 
         /* body{
@@ -84,7 +103,7 @@
         </div>
         <h1 style="text-align: center;">Work Exprience</h1><br>
         <form style="align-items: center;">
-            <fieldset style="align-items: center;width: 550px; height: 570px; border-radius: 13px; margin-left: 510px;"> 
+            <fieldset style="align-items: center;width: 550px; height: 570px; border-radius: 13px; margin-left: 510px;">
                 <legend class="">Enter Employment Details</legend>
                 <lebel>*Job Title; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </lebel>
                 <input type="text" placeholder="Research and Learning ">
@@ -220,9 +239,8 @@
                     Please the closet <br> relevant option and explian in the
                     -Aditional Comments-</label><br><br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <input
-                    type="submit" name="submit"> 
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" name="reset"> 
+                <input type="submit" name="submit">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" name="reset">
 
 
 
@@ -231,6 +249,15 @@
 
 
             </fieldset>
+            <div class="drop">
+                <p class="see">About us</p>
+                <div class="dropdown-con">
+                    <a href="#">our servce</a>
+                    <a href="#">our servce</a>
+                    <a href="#">our servce</a>
+
+                </div>
+            </div>
         </form>
 </body>
 

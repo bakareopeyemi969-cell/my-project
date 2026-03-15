@@ -1,7 +1,65 @@
-.dayo  ul li{
-    display:  inline-block;
+ /* a {
+     text-decoration: none;
+     text-shadow: -5px -2px 2px rgba(16, 64, 238, 0.482);
+ }
+
+ h1 {
+     color: rgb(9, 90, 196);
+ }
+
+ a:hover {
+     color: rgb(155, 162, 199);
+ }
+
+
+  li {
+     display: inline;
+     margin:10px 15px ;
+     font-size: 20px;
+     background: red;
+     padding: 10px 10px;
+     color: white;
+     border-left: dotted;
+
+
+
+ 
+
+ }
+
+ li a:visited {
+     color: yellow;
+ }
+
+ 
+s
+ body {} */
+ li {
+     display: inline;
+     margin:38px 40px;
+      font-size: 20px;
+     /* background: rgb(253, 189, 28);  */
+     padding: 10px 10px;
+     color: rgba(14, 1, 1, 0.834);
+    padding:4px 2px 21px 4px; 
     text-decoration:none;
-    list-style-type: none;
-    margin-left: 200px;
-    margin-top: -60px;
-}
+
+     /* /* border-left: dotted; */
+
+  }
+
+ ul {
+     list-style-type: none;
+     text-decoration: none;
+     margin-left: 580px;
+     margin-top: -66px;
+ } 
+ /* li a:hover {
+     color: rgb(0, 0, 1);
+     background:  rgb(253, 189, 28);
+ }
+ li a:link {
+     color: rgb(10, 5, 5);
+     text-decoration: none;
+     padding: 0px 0px;
+ } */
