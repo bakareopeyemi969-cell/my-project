@@ -35,7 +35,7 @@
 s
  body {} */
  li {
-     display: inline;
+     display: inline-block;
      margin:38px 40px;
       font-size: 20px;
      /* background: rgb(253, 189, 28);  */
