@@ -12,48 +12,53 @@
  }
 
 
-  li {
-     display: inline;
-     margin:10px 15px ;
-     font-size: 20px;
-     background: red;
-     padding: 10px 10px;
-     color: white;
-     border-left: dotted;
-
-
-
- 
-
- }
-
- li a:visited {
-     color: yellow;
- }
-
  
 s
  body {} */
- li {
-     display: inline-block;
-     margin:38px 40px;
-      font-size: 20px;
+ .mmm{
+     display: inline-flex;
+     margin: 18px 30px;
+     font-size: 20px;
      /* background: rgb(253, 189, 28);  */
      padding: 10px 10px;
      color: rgba(14, 1, 1, 0.834);
-    padding:4px 2px 21px 4px; 
-    text-decoration:none;
+     padding: 4px 2px 21px 4px;
+     text-decoration: none;
+     list-style-type: none;
+     gap: 100px;
 
      /* /* border-left: dotted; */
 
-  }
+ }
 
- ul {
+ .dayo{
      list-style-type: none;
      text-decoration: none;
-     margin-left: 580px;
-     margin-top: -66px;
- } 
+     margin-left: 300px;
+     margin-top: -70px;
+ }
+
+ /* li{
+             display: inline;
+             margin: 10px 15px;
+             font-size: 20px;
+             background: rgb(123, 32, 208);
+             padding: 8px 7px;
+             color: white;
+             border-left: dotted;
+        }
+
+         /* &:hover {
+
+             color: white;
+         }
+
+
+         &:visited {
+             color: yellow;
+         }
+     } */
+
  /* li a:hover {
      color: rgb(0, 0, 1);
      background:  rgb(253, 189, 28);
@@ -63,3 +68,6 @@ s
      text-decoration: none;
      padding: 0px 0px;
  } */
+ a {
+     text-decoration: none;
+ }

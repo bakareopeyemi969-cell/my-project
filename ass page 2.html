@@ -8,13 +8,7 @@
     <title>HTML PRATICE</title>
     <link rel="stylesheet" type="text/css" href="mystyle.css">
     <style>
-        .focus-section {
-            background-image: url(bg.jpg);
-            background-size: cover;
-            background-position:center ;
-            background-attachment: fixed;
-        }
-
+    
         .what {
             color: #ffc107;
             font-weight: bold;
@@ -22,16 +16,22 @@
             margin-bottom: 20px;
         }
 
-        .overlay {
+        
+        .sola {
+            background: url(bg.jpg);
+            background-size:cover ;
+            background-position: center;
+            background-attachment: fixed;
+            margin-top: -30px;
+
+
+
+        }
+        .overlay{
             background: rgba(50, 0, 90, 0, 75);
             padding: 80px;
             text-align: center;
             color: white;
-            position: absolute;
-            background: url(bg.jpg);
-            background-attachment: fixed;
-            background-size: cover;
-        
 
         }
 
@@ -46,7 +46,7 @@
         .focus-text {
             max-width: 650px;
             margin: auto;
-            margin-top: 20px;
+            margin-top: 10px;
             line-height: 1.4;
             font-size: 18px;
             margin-bottom: 20px;
@@ -315,27 +315,32 @@
 
     <div class="dayo">
         <ul>
-            <li>
+            <div class="mmm">
                 <a href="index.html">Introduction</a></h4>
-            <li>
-                <a href="ass page 2.html"> About us</a></h4>
-            </li>
-            <li>
-                <a href="ass page 3.html">service</a></h4>
-            </li>
-            <li>
-                <a href="ass page 4.html"> products </a></h4>
-            </li>
-            <li>
-                <a href="ass page 5.html">contact us</a></h4>
-            </li>
-        </ul><br>
+                <li>
+                    <a href="ass page 2.html"> About us</a></h4>
+                </li>
+                <li>
+                    <a href="ass page 3.html">service</a></h4>
+                </li>
+                <li>
+                    <a href="ass page 4.html"> products </a></h4>
+                </li>
+                <li>
+                    <a href="ass page 5.html">contact us</a></h4> 
+                </li>
+
+            </div>
+        </ul>
     </div>
-    <section class="focus-section">
+
+    <section class="sola">
         <div class="overlay">
 
             <p class="what"> WHAT WE DO</p>
+
             <h1 class="focus">Our Focus Area</h1>
+
             <p class="focus-text">six integrated focus area guide our work in youth-led peacebuilding, conflict<br>
                 prevention,and sustainable development
 
@@ -356,6 +361,7 @@
                     <p>Building skills to identify and handle conflicts sensibly,fairly and efficiently</p>
                     <a href="#">Learn more</a>
                 </div>
+
                 <div class="card-red">
                     <i class="fa-solid fa-traingle-exclamation"></i>
                     <h3>Prevention of violent Extemism</h3>
@@ -391,7 +397,7 @@
             <button class="explore"> Explore All Program<span class="arrow"></span>&rarr;</span></button>
 
         </div>
-    </section>
+        </div>
 </body>
 
 </html>
